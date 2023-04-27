@@ -1,13 +1,18 @@
-# Welcome to our GitHub classroom!
+public String teenTalk(String sentence)
+{
+    String result = "";
+    for (int i = 0; i < text.length(); i++)
+    {
+        String letter = ""+text.charAt(i);
+        if (!letter.equals("2"))
+        {
+            result += text.charAt(i);
+        }
+        else
+        {
+            result += "to";
+        }
+    }
+    return result;
 
-Do the following to Complete this assignment:
-
-1. Begin editing this file by clicking the 'pen' symbol above.
-
-2. Enter your First Name: Yusuf
-
-3. Enter your favourite animal: cheetah
-
-4. Now click the green 'commit changes' button at the bottom.
-
-5. Done!
+}
